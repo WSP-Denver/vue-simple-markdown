@@ -1,10 +1,10 @@
 import { Strong } from './strong'
 
 const RULES = [
-  Strong,
+  Strong
 ]
 
 export {
   RULES,
-  Strong,
+  Strong
 }

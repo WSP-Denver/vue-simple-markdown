@@ -23,14 +23,14 @@ export default {
     strong: {
       type: Boolean,
       default: true
-    },
+    }
   },
   computed: {
     parsed () {
       let source = this.prerender(this.source.toString())
 
       source = VueSimpleMarkdownParser.parse(source, {
-        strong: this.strong,
+        strong: this.strong
       })
 
       return this.postrender(source)
